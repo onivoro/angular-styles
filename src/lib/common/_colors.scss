@@ -1,14 +1,14 @@
-$base: var(--base);
-$base-muted: var(--base-muted);
+$base: var(--base, rgb(2, 6, 23));
+$base-muted: var(--base-muted, rgba(2, 6, 23, 0.5));
 
-$contrast: var(--contrast);
-$contrast-muted: var(--contrast-muted);
+$contrast: var(--contrast, #fff);
+$contrast-muted: var(--contrast-muted, rgba(255, 255, 255, 0.5));
 
-$accent: var(--accent);
-$accent-contrast: var(--accent-contrast);
+$accent: var(--accent, rgb(5, 150, 105));
+$accent-contrast: var(--accent-contrast, #fff);
 
-$primary: var(--primary);
-$primary-contrast: var(--primary-contrast);
+$primary: var(--primary, rgb(2, 132, 199));
+$primary-contrast: var(--primary-contrast, #fff);
 
-$warn: var(--warn);
-$warn-contrast: var(--warn-contrast);
+$warn: var(--warn, rgb(220, 38, 38));
+$warn-contrast: var(--warn-contrast, #fff);

@@ -2,6 +2,8 @@
 
 a,
 button {
+  white-space: break-spaces !important;
+
   &[disabled] {
     cursor: not-allowed;
   }
@@ -24,6 +26,10 @@ button {
     .mat-button-wrapper, .mat-focus-indicator {
       padding: 0 !important;
     }
+  }
+
+  .xl {
+    line-height: 56px !important;
   }
 }
 

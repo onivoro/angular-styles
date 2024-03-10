@@ -1,9 +1,5 @@
 @import '../common/colors';
 
-tr.mat-row:nth-child(odd) {
-  background-color: rgb(230, 230, 230);
-}
-
 table th {
   text-align: left;
 }
@@ -15,9 +11,29 @@ td.mat-footer-cell {
   padding-right: 4px !important;
 }
 
+.stripeable-table {
+  tr.mat-row:nth-child(odd) {
+    background-color: $base;
+    filter: brightness(50%);
+    color: $base !important;
+  }
+
+  tr.mat-row:nth-child(even) {
+    background-color: $contrast;
+    color: $base !important;
+  }
+}
+
 .clickable-table {
   .mat-row:hover {
     cursor: pointer;
-    background-color: darkturquoise !important;
+  }
+}
+
+.clickable-table,
+.hoverable-table {
+  .mat-row:hover {
+    background-color: $primary !important;
+    color: $primary-contrast !important;
   }
 }

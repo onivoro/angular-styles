@@ -3,12 +3,14 @@
 @include mat.core();
 
 @import 'themes';
-@import 'mat-button-size';
 @import 'mat-button';
-@import 'mat-card';
 @import 'mat-dialog';
 @import 'mat-form-field';
 @import 'table';
 
 
 @include mat.all-component-themes($theme);
+
+.dark {
+    @include mat.all-component-themes($dark-theme);
+}
