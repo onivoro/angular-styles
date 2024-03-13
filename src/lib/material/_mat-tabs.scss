@@ -1,0 +1,6 @@
+@import '../_colors';
+
+.mdc-tab-indicator .mdc-tab-indicator__content {
+    height: 4px !important;
+    border-top: solid 4px $primary !important;
+}

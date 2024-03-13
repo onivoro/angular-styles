@@ -1,44 +1,31 @@
-@import '../common/colors';
+@import '../_colors';
 
-// .mat-form-field {
-//     [readonly] {
-//         color: $fore-disabled-text;
-//     }
-// }
-
-mat-form-field, .mat-form-field {
-    width: 100% !important;
-}
-
-.sm {
-.mat-form-field-wrapper {
-    &, & .mat-form-field-infix {
-        margin-bottom: 0 !important;
-        padding-bottom: 0 !important;
-        border-width: 0 !important;
-    }
-  }
-}
-
-
-mat-form-field.mat-form-field.slender-form-field > .mat-form-field-wrapper {
-    margin: 0 !important;
-    padding: 0 !important;
-    border-width: 0 !important;
-    // position: relative;
-    // top: 0.625em;
-}
-
-mat-form-field.mat-form-field.slender-form-field-infix {
-    .mat-form-field-infix {
-        padding: 0 !important;
-        margin: 0 !important;
-        border-width: 0 !important;
+mat-form-field.mat-mdc-form-field.ovo-subscript-none {
+    .mat-mdc-form-field-subscript-wrapper {
+        display: none !important;
     }
 }
 
-mat-form-field.white-form-field .mat-form-field-wrapper {
+mat-form-field.ovo-form-field-contrast .mat-mdc-text-field-wrapper {
     background-color: $contrast !important;
     border-radius: 5px !important;
-    color: $base;
+
+    input {
+        color: $base !important;
+        &::placeholder {
+            color: $base-muted !important;
+        }
+    }
+}
+
+mat-form-field.ovo-form-field-base .mat-mdc-text-field-wrapper {
+    background-color: $base !important;
+    border-radius: 5px !important;
+
+    input {
+        color: $contrast !important;
+        &::placeholder {
+            color: $contrast-muted !important;
+        }
+    }
 }

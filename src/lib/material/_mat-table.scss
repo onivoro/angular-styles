@@ -1,0 +1,40 @@
+@import '../_colors';
+
+.ovo-mat-table-stripeable {
+    .mat-mdc-row:nth-child(even) {
+        filter: invert(10%);
+    }
+}
+
+.ovo-mat-table-text-left {
+    td,
+    th {
+        text-align: left;
+    }
+}
+
+.ovo-mat-table-px {
+    td.mat-mdc-cell,
+    th.mat-mdc-header-cell,
+    td.mat-mdc-footer-cell {
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+    }
+}
+
+.ovo-mat-table-hoverable,
+.ovo-mat-table-clickable {
+    .mat-mdc-row:hover {
+        background-color: $primary !important;
+
+        td {
+            color: $primary-contrast !important;
+        }
+    }
+}
+
+.ovo-mat-table-clickable {
+    .mat-mdc-row:hover {
+        cursor: pointer;
+    }
+}

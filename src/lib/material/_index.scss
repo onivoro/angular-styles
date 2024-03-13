@@ -6,11 +6,12 @@
 @import 'mat-button';
 @import 'mat-dialog';
 @import 'mat-form-field';
-@import 'table';
+@import 'mat-table';
+@import 'mat-tabs';
 
 
 @include mat.all-component-themes($theme);
 
-.dark {
+.ovo-mat-dark-theme {
     @include mat.all-component-themes($dark-theme);
 }
