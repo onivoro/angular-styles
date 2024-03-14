@@ -38,3 +38,9 @@
         cursor: pointer;
     }
 }
+
+table[mat-table] {
+    &, .mat-mdc-header-row, .mat-mdc-row, tbody, thead {
+      font-family: inherit !important;
+    }
+  }
