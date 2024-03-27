@@ -8,19 +8,59 @@ button {
     cursor: not-allowed;
   }
 
-  &[mat-raised-button], &[mat-flat-button], &[mat-mini-fab], &[mat-fab], &[mat-icon-button] {
-    &[color=primary] {
-      color: $primary-contrast !important;
+  @import '../_colors';
+
+  a,
+  button {
+    white-space: break-spaces !important;
+
+    &[disabled] {
+      cursor: not-allowed;
     }
 
-    &[color=accent] {
+    &[mat-mini-fab],
+    &[mat-fab] {
       color: $accent-contrast !important;
     }
 
-    &[color=warn] {
-      color: $warn-contrast !important;
+    &[mat-icon-button],
+    &[mat-stroked-button] {
+      &[color=primary] {
+        color: $primary !important;
+      }
+
+      &[color=accent] {
+        color: $accent !important;
+      }
+
+      &[color=warn] {
+        color: $warn !important;
+      }
+    }
+
+    &[mat-raised-button],
+    &[mat-flat-button],
+    &[mat-mini-fab],
+    &[mat-fab] {
+      &[color=primary] {
+        color: $primary-contrast !important;
+      }
+
+      &[color=accent] {
+        color: $accent-contrast !important;
+      }
+
+      &[color=warn] {
+        color: $warn-contrast !important;
+      }
     }
   }
+
+  // .mat-mdc-unelevated-button>.mat-icon, .mat-mdc-raised-button>.mat-icon, .mat-mdc-outlined-button>.mat-icon {
+  //   margin-right: 0 !important;
+  //   margin-left: 0 !important;
+  // }
+
 }
 
 // .mat-mdc-unelevated-button>.mat-icon, .mat-mdc-raised-button>.mat-icon, .mat-mdc-outlined-button>.mat-icon {
