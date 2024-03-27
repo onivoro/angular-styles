@@ -2,46 +2,48 @@
 
 a,
 button {
-  white-space: break-spaces !important;
+  &:not(.mdc-switch) {
+    white-space: break-spaces !important;
 
-  &[disabled] {
-    cursor: not-allowed;
-  }
-
-  &[mat-mini-fab],
-  &[mat-fab] {
-    color: $accent-contrast !important;
-  }
-
-  &[mat-icon-button],
-  &[mat-stroked-button] {
-    &[color=primary] {
-      color: $primary !important;
+    &[disabled] {
+      cursor: not-allowed;
     }
 
-    &[color=accent] {
-      color: $accent !important;
-    }
-
-    &[color=warn] {
-      color: $warn !important;
-    }
-  }
-
-  &[mat-raised-button],
-  &[mat-flat-button],
-  &[mat-mini-fab],
-  &[mat-fab] {
-    &[color=primary] {
-      color: $primary-contrast !important;
-    }
-
-    &[color=accent] {
+    &[mat-mini-fab],
+    &[mat-fab] {
       color: $accent-contrast !important;
     }
 
-    &[color=warn] {
-      color: $warn-contrast !important;
+    &[mat-icon-button],
+    &[mat-stroked-button] {
+      &[color=primary] {
+        color: $primary !important;
+      }
+
+      &[color=accent] {
+        color: $accent !important;
+      }
+
+      &[color=warn] {
+        color: $warn !important;
+      }
+    }
+
+    &[mat-raised-button],
+    &[mat-flat-button],
+    &[mat-mini-fab],
+    &[mat-fab] {
+      &[color=primary] {
+        color: $primary-contrast !important;
+      }
+
+      &[color=accent] {
+        color: $accent-contrast !important;
+      }
+
+      &[color=warn] {
+        color: $warn-contrast !important;
+      }
     }
   }
 }
