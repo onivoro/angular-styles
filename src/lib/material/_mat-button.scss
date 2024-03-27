@@ -8,59 +8,42 @@ button {
     cursor: not-allowed;
   }
 
-  @import '../_colors';
+  &[mat-mini-fab],
+  &[mat-fab] {
+    color: $accent-contrast !important;
+  }
 
-  a,
-  button {
-    white-space: break-spaces !important;
-
-    &[disabled] {
-      cursor: not-allowed;
+  &[mat-icon-button],
+  &[mat-stroked-button] {
+    &[color=primary] {
+      color: $primary !important;
     }
 
-    &[mat-mini-fab],
-    &[mat-fab] {
-      color: $accent-contrast !important;
+    &[color=accent] {
+      color: $accent !important;
     }
 
-    &[mat-icon-button],
-    &[mat-stroked-button] {
-      &[color=primary] {
-        color: $primary !important;
-      }
-
-      &[color=accent] {
-        color: $accent !important;
-      }
-
-      &[color=warn] {
-        color: $warn !important;
-      }
-    }
-
-    &[mat-raised-button],
-    &[mat-flat-button],
-    &[mat-mini-fab],
-    &[mat-fab] {
-      &[color=primary] {
-        color: $primary-contrast !important;
-      }
-
-      &[color=accent] {
-        color: $accent-contrast !important;
-      }
-
-      &[color=warn] {
-        color: $warn-contrast !important;
-      }
+    &[color=warn] {
+      color: $warn !important;
     }
   }
 
-  // .mat-mdc-unelevated-button>.mat-icon, .mat-mdc-raised-button>.mat-icon, .mat-mdc-outlined-button>.mat-icon {
-  //   margin-right: 0 !important;
-  //   margin-left: 0 !important;
-  // }
+  &[mat-raised-button],
+  &[mat-flat-button],
+  &[mat-mini-fab],
+  &[mat-fab] {
+    &[color=primary] {
+      color: $primary-contrast !important;
+    }
 
+    &[color=accent] {
+      color: $accent-contrast !important;
+    }
+
+    &[color=warn] {
+      color: $warn-contrast !important;
+    }
+  }
 }
 
 // .mat-mdc-unelevated-button>.mat-icon, .mat-mdc-raised-button>.mat-icon, .mat-mdc-outlined-button>.mat-icon {
