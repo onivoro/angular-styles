@@ -5,45 +5,45 @@
 $primary-palette: (
   mat.define-palette(
     (
-      100: $primary,
-      500: $primary,
+      300: $primary,
+      600: $primary,
       700: $primary,
       contrast: (
-        100: $primary-contrast,
-        500: $primary-contrast,
+        300: $primary-contrast,
+        600: $primary-contrast,
         700: $primary-contrast,
       ),
-    )
+    ), 600, 300, 700
   )
 );
 
 $accent-palette: (
   mat.define-palette(
     (
-      100: $accent,
-      500: $accent,
+      300: $accent,
+      600: $accent,
       700: $accent,
       contrast: (
-        100: $accent-contrast,
-        500: $accent-contrast,
+        300: $accent-contrast,
+        600: $accent-contrast,
         700: $accent-contrast,
       ),
-    )
+    ), 600, 300, 700
   )
 );
 
 $warn-palette: (
   mat.define-palette(
     (
-      100: $warn,
-      500: $warn,
+      300: $warn,
+      600: $warn,
       700: $warn,
       contrast: (
-        100: $warn-contrast,
-        500: $warn-contrast,
+        300: $warn-contrast,
+        600: $warn-contrast,
         700: $warn-contrast,
       ),
-    )
+    ), 600, 300, 700
   )
 );
 
