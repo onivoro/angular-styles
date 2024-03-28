@@ -47,7 +47,7 @@ $warn-palette: (
   )
 );
 
-$theme: (
+$theme: mat.define-light-theme((
   color: (
     primary: $primary-palette,
     accent: $accent-palette,
@@ -55,7 +55,7 @@ $theme: (
     foreground: mat.$light-theme-foreground-palette,
     background: mat.$light-theme-background-palette
   ),
-);
+));
 
 $dark-theme: (
   color: (
