@@ -14,17 +14,37 @@ button {
       color: $accent-contrast !important;
     }
 
+    &[mat-stroked-button],
     &[mat-icon-button] {
+
       &[color=primary] {
         color: $primary !important;
+
+        &:active {
+          &:hover {
+              color: $primary-contrast !important;
+          }
+        }
       }
 
       &[color=accent] {
         color: $accent !important;
+
+        &:active {
+          &:hover {
+              color: $accent-contrast !important;
+          }
+        }
       }
 
       &[color=warn] {
         color: $warn !important;
+
+        &:active {
+          &:hover {
+              color: $warn-contrast !important;
+          }
+        }
       }
     }
 
@@ -46,8 +66,3 @@ button {
     }
   }
 }
-
-// .mat-mdc-unelevated-button>.mat-icon, .mat-mdc-raised-button>.mat-icon, .mat-mdc-outlined-button>.mat-icon {
-//   margin-right: 0 !important;
-//   margin-left: 0 !important;
-// }
