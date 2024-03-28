@@ -14,5 +14,5 @@
 @include mat.all-component-themes($theme);
 
 .ovo-mat-dark-theme {
-    @include mat.all-component-themes($dark-theme);
+    @include mat.all-component-colors($dark-theme);
 }

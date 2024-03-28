@@ -5,7 +5,7 @@
 $primary-palette: (
   mat.define-palette(
     (
-      300: $primary,
+      300: $primary-muted,
       600: $primary,
       700: $primary,
       contrast: (
@@ -20,7 +20,7 @@ $primary-palette: (
 $accent-palette: (
   mat.define-palette(
     (
-      300: $accent,
+      300: $accent-muted,
       600: $accent,
       700: $accent,
       contrast: (
@@ -35,7 +35,7 @@ $accent-palette: (
 $warn-palette: (
   mat.define-palette(
     (
-      300: $warn,
+      300: $warn-muted,
       600: $warn,
       700: $warn,
       contrast: (

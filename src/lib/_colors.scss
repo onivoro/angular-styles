@@ -5,10 +5,13 @@ $contrast: var(--contrast, #fff);
 $contrast-muted: var(--contrast-muted, rgba(255, 255, 255, 0.5));
 
 $accent: var(--accent, #00b1b4);
+$accent-muted: var(--accent-muted, #00c7ce);
 $accent-contrast: var(--accent-contrast, #d9fffe);
 
 $primary: var(--primary, #6836a2);
+$primary-muted: var(--primary-muted, #8558b5);
 $primary-contrast: var(--primary-contrast, #efe9f6);
 
 $warn: var(--warn, #d70060);
+$warn-muted: var(--warn-muted, #e56c65);
 $warn-contrast: var(--warn-contrast, #ffe3ee);
