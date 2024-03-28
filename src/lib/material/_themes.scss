@@ -3,16 +3,17 @@
 @import '../_colors';
 
 $primary-palette: (
-  mat.define-palette((50: $primary-muted,
-      100: $primary-muted,
-      200: $primary-muted,
-      300: $primary-muted,
-      400: $primary-muted,
-      500: $primary-muted,
-      600: $primary-muted,
-      700: $primary,
-      800: $primary,
-      900: $primary,
+  mat.define-palette((
+      50: black,
+      100: midnightblue,
+      200: darkslateblue,
+      300: lightsteelblue,
+      400: hotpink,
+      500: orange,
+      600: yellow,
+      700: lime,
+      800: olive,
+      900: teal,
       contrast: (50: $primary-contrast,
         100: $primary-contrast,
         200: $primary-contrast,
