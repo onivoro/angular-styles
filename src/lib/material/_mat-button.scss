@@ -14,8 +14,7 @@ button {
       color: $accent-contrast !important;
     }
 
-    &[mat-icon-button],
-    &[mat-stroked-button] {
+    &[mat-icon-button] {
       &[color=primary] {
         color: $primary !important;
       }
