@@ -5,9 +5,16 @@
 $primary-palette: (
   mat.define-palette(
     (
+      50: $primary-muted,
+      100: $primary-muted,
+      200: $primary-muted,
       300: $primary-muted,
+      400: $primary-muted,
+      500: $primary-muted,
       600: $primary-muted,
       700: $primary,
+      800: $primary-muted,
+      900: $primary-muted,
       contrast: (
         300: $primary-contrast,
         600: $primary-contrast,
