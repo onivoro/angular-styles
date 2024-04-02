@@ -3,8 +3,6 @@
 a,
 button {
   &:not(.mdc-switch) {
-    white-space: break-spaces !important;
-
     &[disabled] {
       cursor: not-allowed;
     }
@@ -16,6 +14,7 @@ button {
 
     &[mat-stroked-button],
     &[mat-icon-button] {
+      white-space: break-spaces !important;
 
       &[color=primary] {
         color: $primary !important;
@@ -52,6 +51,8 @@ button {
     &[mat-flat-button],
     &[mat-mini-fab],
     &[mat-fab] {
+      white-space: break-spaces !important;
+
       &[color=primary] {
         color: $primary-contrast !important;
       }
