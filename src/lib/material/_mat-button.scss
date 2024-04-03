@@ -2,10 +2,11 @@
 
 a,
 button {
+  &[disabled] {
+    cursor: not-allowed;
+  }
+
   &:not(.mdc-switch) {
-    &[disabled] {
-      cursor: not-allowed;
-    }
 
     &[mat-mini-fab],
     &[mat-fab] {
@@ -54,14 +55,17 @@ button {
       white-space: break-spaces !important;
 
       &[color=primary] {
+        background-color: $primary !important;
         color: $primary-contrast !important;
       }
 
       &[color=accent] {
+        background-color: $accent !important;
         color: $accent-contrast !important;
       }
 
       &[color=warn] {
+        background-color: $warn !important;
         color: $warn-contrast !important;
       }
     }
