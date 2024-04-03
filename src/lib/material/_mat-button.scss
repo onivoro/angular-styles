@@ -10,6 +10,7 @@ button {
 
     &[mat-mini-fab],
     &[mat-fab] {
+      background-color: $accent !important;
       color: $accent-contrast !important;
     }
 
