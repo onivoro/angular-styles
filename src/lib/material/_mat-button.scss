@@ -18,7 +18,7 @@ button {
     &[mat-icon-button] {
       white-space: break-spaces !important;
 
-      &[color=primary] {
+      &.mat-primary {
         color: $primary !important;
 
         &:active {
@@ -28,7 +28,7 @@ button {
         }
       }
 
-      &[color=accent] {
+      &.mat-accent {
         color: $accent !important;
 
         &:active {
@@ -38,7 +38,7 @@ button {
         }
       }
 
-      &[color=warn] {
+      &.mat-warn {
         color: $warn !important;
 
         &:active {
@@ -55,17 +55,17 @@ button {
     &[mat-fab] {
       white-space: break-spaces !important;
 
-      &[color=primary] {
+      &.mat-primary {
         background-color: $primary !important;
         color: $primary-contrast !important;
       }
 
-      &[color=accent] {
+      &.mat-accent {
         background-color: $accent !important;
         color: $accent-contrast !important;
       }
 
-      &[color=warn] {
+      &.mat-warn {
         background-color: $warn !important;
         color: $warn-contrast !important;
       }
